@@ -1,0 +1,61 @@
+.App {
+  background-color: #282c34;
+  color: white;
+  font-family: 'Helvetica Neue';
+  min-height: 100vh; 
+}
+
+.Header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.App-header {
+  font-size: calc(48px + 2vmin);
+  padding-top: 10vh;
+}
+
+.App-subheader {
+  font-size: calc(12px + 2vmin);
+}
+
+.SectionHeader{
+  text-align: left;
+  display: flex;
+  font-size: calc(36px + 2vmin);
+  padding-left: 10vw;
+  padding-top: 10vw;
+}
+
+.Match {
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 40px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+}
+
+.MatchHeader {
+  font-size: calc(24px + 2vmin);
+  padding-top: 5px;
+}
+
+.TeamPerformance {
+  display: 'inline-block';
+  margin-left: 2vw;
+  text-align: center;
+}
+
+.BreakDown {
+  font-size: calc(6px + 2vmin);
+  margin-top: 2px;
+}
+
+.RulesList{
+  text-align: left;
+  font-size: calc(6px + 2vmin);
+  padding-left: 20vw;
+  padding-top: 10px;
+}
