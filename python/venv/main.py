@@ -53,8 +53,6 @@ def get_kicker_scores():
 
     fantasy_matches = [Match.Match(match, week_stats_df) for match in espn_week_info]
 
-    #matches = json.dumps([ob.__dict__ for ob in fantasy_matches], cls=ComplexEncoder)
-
     response = jsonpickle.encode({
         "matches": fantasy_matches,
         "week": week
@@ -63,7 +61,7 @@ def get_kicker_scores():
     return response
 
 
-#if __name__ == '__main__':
-#     app.run()
+if __name__ == '__main__':
+     app.run()
 
 get_long_rushes_henry(40)
