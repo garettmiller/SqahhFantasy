@@ -1,12 +1,13 @@
-from decouple import config
-from espn_api.football import League
-from flask import Flask, jsonify
-from flask_cors import CORS
 import json
-import jsonpickle
+
 import Match
+import jsonpickle
 import nfl_data_py as nfl
 import stattypes
+from decouple import config
+from espn_api.football import League
+from flask import Flask
+from flask_cors import CORS
 
 
 class ComplexEncoder(json.JSONEncoder):
